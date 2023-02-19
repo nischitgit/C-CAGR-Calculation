@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int main () {
+int main()
+{
     // Variables
     float initial, final, period, cagr;
     // Instructions

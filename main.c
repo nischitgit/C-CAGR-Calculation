@@ -1,4 +1,5 @@
 // CAGR Calculation
+// Author - @nischit_ig (Instagram)
 #include <stdio.h>
 #include <math.h>
 
@@ -13,7 +14,7 @@ int main () {
     scanf("%f", &final);
     printf("Enter Time Period: ");
     scanf("%f", &period);
-    // Ouput
+    // Output
     cagr = (pow(final/initial, 1/period)) - 1;
     printf("CAGR (%%) = %f", cagr * 100);
     return 0;
